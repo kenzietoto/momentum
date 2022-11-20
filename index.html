@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>REMIND</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://webfontworld.github.io/yangheeryu/GowunDodum.css');
+
+
+        * {
+            font-family: 'GowunDodum', sans-serif;
+        }        
+
+        body {
+            background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Pallastunturi.jpg") ;
+            background-position:top;
+
+            color: rgb(153, 195, 192);
+
+        }
+
+            .time {
+                font-size: 50px; 
+            }
+
+            .greeting {
+                font-size: 30px;
+                font-style: italic;
+                
+                 
+            }
+
+            .todo {
+                font-size: 80px;
+                font-weight: bold;
+            }   
+
+            .main {
+                width: : 200vw;
+                height: 80vh;
+
+                display: flex;
+                 flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+             .quote {
+                width: 100vw; 
+                color: rgba(0, 0, 0, 0.436);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+            }
+           
+    
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="greeting">" Compound effect "</div>
+        <div class="todo">
+            <p>운동, 글, 영어 </p>
+        </div>
+        <div id="time" class="time">12:00</div>
+    </div>    
+    <div class ="quote">
+        <div id= "author" class="author">- 명언의 저자-</div>
+        <div id= "content" class="content">" 명언의 내용 "</div>
+    </div>
+
+</body>
+
+</html>
